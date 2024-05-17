@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    padding: 3% 5%;
+    background-color: #061B28;
+    display: flex;
+    justify-content: space-between;
+    // height: 60px;
+    align-items: center;
+    p{
+        color: #FCFCFC;
+        font-size: 12px;
+    }
+    h3{
+        color: #FCFCFC;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media (max-width: 768px){
+    .footer{
+        flex-direction: column;
+        padding: 5%;
+        gap: 15px;
+    }
+}

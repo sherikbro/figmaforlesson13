@@ -1,0 +1,125 @@
+.connect{
+    width: 100%;
+    padding: 5% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .connect-map{
+        iframe{
+            width: 100%;
+        }
+    }
+    .connect-items{
+        padding-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .connect-item__header{
+            h2{
+                font-size: 52px;
+                color: #061b2b;
+            }
+        }
+        .connect-item__addresstellemail{
+            p{
+                font-size: 18px;
+                color: #061b2b;
+                margin-bottom: 2%;
+            }
+            h6{
+                font-size: 22px;
+                color: #061b2b;
+                cursor: pointer;
+            }
+        }
+        .connect-item__social{
+            p{
+                font-size: 18px;
+                color: #061b2b;
+                margin-bottom: 2%;
+            }
+            .connect-item__socialicons{
+                display: flex;
+                gap: 5%;
+                i{
+                    font-size: 22px;
+                    color: #061b2b;
+                    cursor: pointer;
+                    &:hover{
+                        color: #7A5197;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px){
+    .connect{
+        .connect-items{
+            .connect-item__header{
+                h2{
+                    font-size: 38px;
+                }
+            }
+            .connect-item__addresstellemail{
+                p{
+                    font-size: 15px;
+                }
+                h6{
+                    font-size: 18px;
+                }
+            }
+            .connect-item__social{
+                p{
+                    font-size: 15px;
+                }
+                .connect-item__socialicons{
+                    i{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .connect{
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+        .connect-map{
+            margin-bottom: 4%;
+            iframe{
+                height: 100%;
+            }
+        }
+        .connect-items{
+            padding: 0;
+            .connect-item__header{
+                margin-bottom: 4%;
+                h2{
+                    font-size: 28px;
+                }
+            }
+            .connect-item__addresstellemail{
+                margin-bottom: 4%;
+                p{
+                    font-size: 13px;
+                    margin-bottom: 1%;
+                }
+                h6{
+                    font-size: 15px;
+                }
+            }
+            .connect-item__social{
+                margin-bottom: 4%;
+                p{
+                    font-size: 13px;
+                }
+                .connect-item__socialicons{
+                    i{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

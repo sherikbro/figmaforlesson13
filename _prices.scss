@@ -1,0 +1,168 @@
+.price{
+    width: 100%;
+    // background-color: #061B28EB;
+    background-image: url(./images/Rectangle\ 9.jpg);
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    .price-header{
+        text-align: center;
+        h2{
+            font-size: 52px;
+            margin-bottom: 5%;
+            color: white;
+        }
+        p{
+            font-size: 18px;
+            text-align: center;
+            color: #FCFCFC;
+            font-weight: 400;
+        }
+    }
+    .price-table{
+        table{
+            tr{
+                td{
+                    border-bottom: 1px solid #A7AEB4;
+                    padding: 20px 40px;
+                    color: #A7AEB4;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                th{
+                    border-bottom: 1px solid #A7AEB4;
+                    padding: 20px 40px;
+                    color: #FCFCFC;
+                    font-weight: 500;
+                    font-size: 22px;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+    .price-link{
+        ul{
+            li{
+                cursor: pointer;
+                a{
+                    border: 1px solid white;
+                    color: white;
+                    padding: 10% 30%;
+                    font-size: 16px;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px){
+    .price{
+        gap: 30px;
+        align-items: center;
+        .price-header{
+            h2{
+                font-size: 46px;
+                margin-bottom: 2%;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .price-table{
+            table{
+                tr{
+                    td{
+                        font-size: 16px;
+                        padding: 16px 32px;
+                    }
+                    th{
+                        padding: 16px 32px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .price{
+        margin-top: 50px;
+        .price-header{
+            h2{
+                font-size: 36px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .price-table{
+            table{
+                tr{
+                    td{
+                        font-size: 10px;
+                        padding: 8px 16px;
+                    }
+                    th{
+                        padding: 8px 16px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .price-link{
+            text-align: center;
+            ul{
+                text-align: center;
+                li{
+                    text-align: center;
+                    a{
+                        text-align: center;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 450px){
+    .price{
+        margin-top: 50px;
+        .price-header{
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .price-table{
+            table{
+                tr{
+                    td{
+                        font-size: 8px;
+                        padding: 8px 14px;
+                    }
+                    th{
+                        padding: 8px 14px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .price-link{
+            text-align: center;
+            ul{
+                text-align: center;
+                li{
+                    text-align: center;
+                    a{
+                        text-align: center;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
